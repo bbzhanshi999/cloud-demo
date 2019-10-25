@@ -8,7 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients //允许当前的项目使用feign声明的方式访问服务
 @EnableDiscoveryClient
-//这是一个注释g
 public class ConsumerServiceApplication {
 
     public static void main(String[] args) {
